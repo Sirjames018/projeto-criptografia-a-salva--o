@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigcat</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+           
+            <a class="cabecalho__menu__icone__link" href="index.html">  <img class="img__enigma" src="/Assets/gifgato.gif" alt="enigma_foto"></a>
+            <h1>EnigCat</h1>
+        </nav>
+    </header>
+    <main class="corpo__site">
+    <div class="entrada__resultado">
+        <div class="conteiner__entrada">
+            <textarea class="conteiner__input" cols="30" rows="5" style="resize: none;" placeholder="Insira seu texto aqui"></textarea>
+        </div>
+        <div class="conteiner__texto">
+            <img class="imagem"id="imgchat"src="\Assets\standbygatito1.gif" 
+            alt="imagem-waiting-for-command">
+
+            <h1 class="conteiner__texto__resultado">Texto Criptografado/Descriptografado aqui!</h1>
+            
+            
+        </div>
+        
+    </div>
+        <p class="conteiner__info">Apenas letras minúsculas e sem acento.</p>
+    <div class="conteiner__botoes__mestre">
+            
+
+            <button onclick= "hideImg()" class="conteiner__botoes__cripto">criptografar</button>
+            <button onclick="hideImg()" class="conteiner__botoes__descripto">descriptografar</button>
+            <button onclick="" class="conteiner__botoes__copiar">copiar</button>
+    </div>
+        <script src="Script.js"></script>
+    </main>
+    <footer class="rodape">
+        <h1 class="rodape__autor">Criado por Tiago</h1>
+    </footer>
+</body>
+</html>
