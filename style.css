@@ -224,8 +224,8 @@ body{
     .imagem{
         margin-left: 5%;
         margin-top: 5%;
-        width: 390px;
-        height: 300px;
+        width: 470px;
+        height: 250px;
         
     }
 
@@ -252,6 +252,46 @@ body{
         padding: 1rem; 
     }
     
+}
+
+    @media screen and (max-width: 530px){
+        .imagem{
+            margin-left: 5%;
+            margin-top: 5%;
+            width: 450px;
+            height: 250px;
+            
+        }
+}
+
+    @media screen and (max-width: 489px){
+    .imagem{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 420px;
+        height: 250px;
+        
+    }
+}
+
+    @media screen and (max-width: 457px){
+    .imagem{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 394px;
+        height: 250px;
+        
+    }
+}
+
+    @media screen and (max-width: 429px){
+    .imagem{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 365px;
+        height: 250px;
+        
+    }
 }
     @media screen and (max-width: 400px){
         .cabecalho__menu{
@@ -285,7 +325,7 @@ body{
         .imagem{
             margin-left: 6%;
             margin-top: 5%;
-            width: 500px;
+            width: 450px;
             height: 220px;
             
         }
