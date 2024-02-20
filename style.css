@@ -262,6 +262,10 @@ body{
             height: 250px;
             
         }
+
+        .conteiner__input{
+            width: 25rem;
+        }
 }
 
     @media screen and (max-width: 489px){
@@ -270,7 +274,10 @@ body{
         margin-top: 5%;
         width: 420px;
         height: 250px;
-        
+    }
+
+    .conteiner__input{
+        width: 20rem;
     }
 }
 
@@ -308,7 +315,7 @@ body{
         .conteiner__input{
             margin-top: 15%;
             margin-left: 5%;
-            width: 30rem;
+            width: 25rem;
             height: 20rem;
             padding: 1%;
         }
