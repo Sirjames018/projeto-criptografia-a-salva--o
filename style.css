@@ -11,7 +11,6 @@
 }
 
 body{
-    box-sizing: border-box;
     background: linear-gradient(#e66465, #9198e5);
     color: var(--cor-secundaria);
 }
@@ -163,4 +162,82 @@ body{
     margin-bottom: 0;
     font-family: var(--fonte-secundaria);
     border: solid 2px var(--cor-terciaria);
+}
+
+@media screen and (max-width: 1600px){
+    .imagem{
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 710px;
+        height: 620px;
+        border-radius: 32px;
+    }
+    .rodape__autor{
+        font-size: 1.6rem;
+    }
+}
+
+/*@media screen and (max-width: 900px){
+    .imagem{
+        position: absolute;
+        margin-left: 6%;
+        margin-top: 3%;
+        width: 710px;
+        height: 620px;
+        border-radius: 32px;   
+    }
+    .rodape__autor{
+        font-size: 1rem;
+    }
+}
+*/
+@media screen and (max-width: 1000px){
+    .cabecalho__menu{
+        flex-direction: column;
+        margin-left: 10rem;
+    }
+    
+    .entrada__resultado{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner__input{
+        margin-top: 15%;
+        margin-left: 5%;
+        width: 30rem;
+        height: 20rem;
+        padding: 1%;
+    }
+    
+
+    .conteiner__texto__resultado{
+        padding: 4%;
+        height: 20rem;
+        width: 40rem;
+        margin: 5%;
+        
+    }
+
+    .imagem{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 520px;
+        height: 300px;
+        
+    }
+
+    .conteiner__info{
+        margin-left: 4rem;
+        font-size: 1.3rem;
+        font-family: var(--fonte-secundaria);
+    }
+
+    .rodape__autor{
+        background-color: none;
+        margin: 0 25% 25%;
+        padding: 1rem; 
+    }
+
 }
