@@ -196,6 +196,7 @@ body{
     .cabecalho__menu{
         flex-direction: column;
         margin-left: 10rem;
+        gap: 0;
     }
     
     .entrada__resultado{
@@ -234,12 +235,24 @@ body{
         font-family: var(--fonte-secundaria);
     }
 
-    .rodape__autor{
-        background-color: none;
-        margin: 0 25% 25%;
-        padding: 1rem; 
+    .conteiner__botoes__mestre{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 10%;
     }
 
+    .conteiner__botoes__copiar{
+        margin-left: 0;
+    }
+
+    .rodape__autor{
+        background-color: none;
+        margin: 0 10% 45%;
+        padding: 1rem; 
+    }
+    
+}
     @media screen and (max-width: 400px){
         .cabecalho__menu{
             flex-direction: column;
@@ -282,6 +295,17 @@ body{
             font-size: 1.3rem;
             font-family: var(--fonte-secundaria);
         }
+
+        .conteiner__botoes__mestre{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-left: 10%;
+        }
+
+        .conteiner__botoes__copiar{
+            margin-left: 0;
+        }
     
         .rodape__autor{
             background-color: none;
@@ -290,4 +314,3 @@ body{
         }
     
     }
-}
