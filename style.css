@@ -231,25 +231,11 @@ body{
     }
 
     .rodape__autor{
-        margin-top: 0.4rem;
+        margin-top: 2.1rem;
         font-size: 1.6rem;
     }
 }
 
-/*@media screen and (max-width: 900px){
-    .imagem{
-        position: absolute;
-        margin-left: 6%;
-        margin-top: 3%;
-        width: 710px;
-        height: 620px;
-        border-radius: 32px;   
-    }
-    .rodape__autor{
-        font-size: 1rem;
-    }
-}
-*/
 @media screen and (max-width: 1000px){
     .cabecalho__menu{
         flex-direction: column;
