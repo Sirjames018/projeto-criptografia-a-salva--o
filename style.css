@@ -374,6 +374,11 @@ body{
         height: 250px;
         
     }
+
+    .conteiner__input{
+        width: 22rem;
+        margin-top: 5%;
+    }
 }
     @media screen and (max-width: 400px){
         .cabecalho__menu{
