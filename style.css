@@ -333,14 +333,14 @@ body{
         .imagem{
         margin-left: 5.6%;
         margin-top: 5%;
-        width: 370px;
+        width: 380px;
         height: 250px;
     }
 
     .conteiner__texto__resultado{
         padding: 4%;
         height: 15rem;
-        width: 31rem;
+        width: 30rem;
         margin: 5%;
         font-size: 1rem;
     }
@@ -399,7 +399,7 @@ body{
         .conteiner__texto__resultado{
             padding: 4%;
             height: 15rem;
-            width: 32rem;
+            width: 30rem;
             margin: 5%;
             font-size: 1rem;
         }
