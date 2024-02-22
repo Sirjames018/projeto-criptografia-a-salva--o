@@ -311,7 +311,7 @@ body{
 
     @media screen and (max-width: 530px){
         .imagem{
-            margin-left: 6%;
+            margin-left: 5%;
             margin-top: 5%;
             width: 380px;
             height: 250px;
@@ -331,10 +331,10 @@ body{
         }
     
         .imagem{
-        margin-left: 6%;
+        margin-left: 5%;
         margin-top: 5%;
-        width: 380px;
-        height: 250px;
+        width: 280px;
+        height: 230px;
     }
 
     .conteiner__texto__resultado{
@@ -353,10 +353,10 @@ body{
 
     @media screen and (max-width: 457px){
     .imagem{
-        margin-left: 5%;
+        margin-left: 6%;
         margin-top: 5%;
-        width: 380px;
-        height: 250px;
+        width: 270px;
+        height: 230px;
         
     }
 }
@@ -365,7 +365,7 @@ body{
     .imagem{
         margin-left: 5%;
         margin-top: 6%;
-        width: 300px;
+        width: 270px;
         height: 230px;
         
     }
