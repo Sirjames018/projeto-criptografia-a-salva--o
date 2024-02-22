@@ -17,13 +17,13 @@
     <main class="corpo__site">
     <div class="entrada__resultado">
         <div class="conteiner__entrada">
-            <textarea class="conteiner__input" cols="30" rows="5" style="resize: none;" placeholder="Insira seu texto aqui"></textarea>
+            <textarea class="conteiner__input" id="input" cols="30" rows="5" style="resize: none;" placeholder="Insira seu texto aqui"></textarea>
         </div>
         <div class="conteiner__texto">
             <img class="imagem"id="imgchat"src="\Assets\standbygatito1.gif" 
             alt="imagem-waiting-for-command">
 
-            <h1 class="conteiner__texto__resultado">Texto Criptografado/Descriptografado aqui!</h1>
+            <textarea class="conteiner__texto__resultado" cols="30" rows="5" style="resize: none;" placeholder = "Texto Criptografado/Descriptografado aqui!"></textarea>
             
             
         </div>
@@ -33,9 +33,10 @@
     <div class="conteiner__botoes__mestre">
             
 
-            <button onclick= "hideImg()" class="conteiner__botoes__cripto">criptografar</button>
-            <button onclick="hideImg()" class="conteiner__botoes__descripto">descriptografar</button>
-            <button onclick="" class="conteiner__botoes__copiar">copiar</button>
+            <button onclick= "hideImg(),atualizarConteudoResultado(textoCriptografado)" class="conteiner__botoes__cripto">criptografar</button>
+            <button onclick="hideImg(),atualizarConteudoResultado(textoDescriptografado)" class="conteiner__botoes__descripto">descriptografar
+            </button>
+            <button onclick="copiarTexto()" class="conteiner__botoes__copiar">copiar</button>
     </div>
         <script src="Script.js"></script>
     </main>
