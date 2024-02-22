@@ -1,3 +1,5 @@
+![Imagem de capa](https://github.com/Sirjames018/projeto-criptografia-a-salva--o/blob/master/Assets/imagem_2024-02-22_121039368.png)
+
 # EnigCat
 
 O EnigCat é uma aplicação web simples que permite criptografar e descriptografar texto utilizando uma técnica de substituição de caracteres. O projeto é desenvolvido em HTML, CSS e JavaScript.
