@@ -261,7 +261,7 @@ body{
     .conteiner__texto__resultado{
         padding: 4%;
         height: 20rem;
-        width: 40rem;
+        width: 34rem;
         margin-right: 0;
         font-size: 1.3rem;
     }
@@ -391,7 +391,7 @@ body{
         .conteiner__texto__resultado{
             padding: 4%;
             height: 15rem;
-            width: 36rem;
+            width: 32rem;
             margin: 5%;
             font-size: 1.3rem;
         }
