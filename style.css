@@ -53,8 +53,8 @@ body{
     position: absolute;
     margin-left: 3%;
     margin-top: 3%;
-    width: 620px;
-    height: 410px;
+    width: 550px;
+    height: 370px;
     border-radius: 32px;
     
 }
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     padding: 4%;
     height: 25rem;
-    width: 80rem;
+    width: 60rem;
     margin: 5%;
     border-radius: 5%;
     background-color: white;
@@ -194,16 +194,16 @@ body{
     .conteiner__texto__resultado{
         padding: 4%;
         height: 21rem;
-        width: 34rem;
+        width: 36rem;
         margin: 5%;
         font-size: 1.8rem;
     }
 
     .imagem{
         position: absolute;
-        margin-left: 2%;
+        margin-left: 2.6%;
         margin-top: 3%;
-        width: 480px;
+        width: 490px;
         height: 300px;
         border-radius: 32px;
     }
@@ -269,7 +269,7 @@ body{
     .imagem{
         margin-left: 7%;
         margin-top: 6%;
-        width: 380px;
+        width: 370px;
         height: 250px;
         
     }
