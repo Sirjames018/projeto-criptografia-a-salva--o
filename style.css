@@ -51,8 +51,8 @@ body{
 
 .imagem{
     position: absolute;
-    margin-left: 2%;
-    margin-top: 2%;
+    margin-left: 3%;
+    margin-top: 3%;
     width: 500px;
     height: 370px;
     border-radius: 32px;
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     padding: 4%;
     height: 25rem;
-    width: 34rem;
+    width: 50rem;
     margin: 5%;
     border-radius: 5%;
     background-color: white;
@@ -194,16 +194,16 @@ body{
     .conteiner__texto__resultado{
         padding: 4%;
         height: 21rem;
-        width: 35rem;
+        width: 30rem;
         margin: 5%;
         font-size: 1.8rem;
     }
 
     .imagem{
         position: absolute;
-        margin-left: 2.8%;
-        margin-top: 3%;
-        width: 490px;
+        margin-left: 2.4%;
+        margin-top: 2%;
+        width: 460px;
         height: 300px;
         border-radius: 32px;
     }
