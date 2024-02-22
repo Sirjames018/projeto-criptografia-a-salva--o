@@ -11,16 +11,15 @@ function criptografar(string){
   return resultado1;
 }
 
-function descriptografar(string){
+function descriptografar(string) {
   const resultado2 = string
-  .replaceAll("ai", "a")
-  .replaceAll("enter", "e")
-  .replaceAll("imes","i")
-  .replaceAll("ober", "o")
-  .replaceAll("ufat", "u")
+    .replaceAll("ufat", "u")
+    .replaceAll("ober", "o")
+    .replaceAll("imes", "i")
+    .replaceAll("enter", "e")
+    .replaceAll("ai", "a");
 
   return resultado2;
-
 }
 
 function atualizarConteudoResultado(texto) {
@@ -64,6 +63,7 @@ function substituirCaracteresInvalidos(texto) {
     .replaceAll(/[íìîï]/g, 'i')
     .replaceAll(/[óòõôö]/g, 'o')
     .replaceAll(/[úùûü]/g, 'u')
+    .replaceAll(/[ç]/g, 'c')
     .toLowerCase();
 
   const textoModificado = textoSemAcentos.replace(/[^a-z0-9\s]/g, '');
