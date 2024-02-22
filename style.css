@@ -53,7 +53,7 @@ body{
     position: absolute;
     margin-left: 3%;
     margin-top: 3%;
-    width: 550px;
+    width: 500px;
     height: 370px;
     border-radius: 32px;
     
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     padding: 4%;
     height: 25rem;
-    width: 60rem;
+    width: 50rem;
     margin: 5%;
     border-radius: 5%;
     background-color: white;
@@ -137,7 +137,7 @@ body{
     height: 67px;
     margin-bottom: 2%;
     font-size: 28px;
-    margin-left: 18%;
+    margin-left: 15%;
 }
 
 .conteiner__botoes__cripto:hover{
