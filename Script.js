@@ -28,6 +28,7 @@ function atualizarConteudoResultado(texto) {
   elementoResultado.value = texto;  // Usar .value para atualizar o conteúdo de uma textarea
 }
 
+
 const textareaElement = document.querySelector(".conteiner__input");
 const conteudoTextarea = textareaElement.value;
 
@@ -54,6 +55,25 @@ const textareaElement = document.querySelector(".conteiner__input");
   // Atualiza o conteúdo do elemento com o texto descriptografado
   atualizarConteudoResultado(textoDescriptografado);
 });
+
+function substituirCaracteresInvalidos(texto) {
+  
+  const textoModificado = texto
+      .replaceAll(/[áàãâä]/g, 'a')
+      .replaceAll(/[éèêë]/g, 'e')
+      .replaceAll(/[íìîï]/g, 'i')
+      .replaceAll(/[óòõôö]/g, 'o')
+      .replaceAll(/[úùûü]/g, 'u')
+      .toLowerCase();  
+
+  return textoModificado;
+}
+
+function atualizarConteudoResultado(texto) {
+  const elementoResultado = document.querySelector(".conteiner__texto__resultado");
+  const textoModificado = substituirCaracteresInvalidos(texto);
+  elementoResultado.value = textoModificado;
+}
 
 function copiarTexto(){
   const textareaElement = document.querySelector(".conteiner__texto__resultado");
