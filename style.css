@@ -337,6 +337,14 @@ body{
         height: 250px;
     }
 
+    .conteiner__texto__resultado{
+        padding: 4%;
+        height: 15rem;
+        width: 32rem;
+        margin: 5%;
+        font-size: 1rem;
+    }
+
     .conteiner__input{
         width: 24rem;
         margin-top: 5%;
@@ -391,9 +399,9 @@ body{
         .conteiner__texto__resultado{
             padding: 4%;
             height: 15rem;
-            width: 18rem; /**/
+            width: 32rem;
             margin: 5%;
-            font-size: 1.3rem;
+            font-size: 1rem;
         }
     
         .imagem{
@@ -406,7 +414,7 @@ body{
     
         .conteiner__info{
             margin-left: 3rem;
-            font-size: 1.3rem;
+            font-size: 1rem;
             font-family: var(--fonte-secundaria);
         }
 
