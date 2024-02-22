@@ -194,16 +194,16 @@ body{
     .conteiner__texto__resultado{
         padding: 4%;
         height: 21rem;
-        width: 36rem;
+        width: 34rem;
         margin: 5%;
         font-size: 1.8rem;
     }
 
     .imagem{
         position: absolute;
-        margin-left: 3%;
+        margin-left: 2%;
         margin-top: 3%;
-        width: 500px;
+        width: 480px;
         height: 300px;
         border-radius: 32px;
     }
@@ -237,7 +237,7 @@ body{
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1000px){
     .cabecalho__menu{
         flex-direction: column;
         margin-left: 10rem;
