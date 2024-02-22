@@ -361,7 +361,7 @@ body{
     }
 }
 
-    @media screen and (max-width: 429px){
+    @media screen and (max-width: 429px)/*aqui para motog31*/{
     .imagem{
         margin-left: 5%;
         margin-top: 6%;
@@ -407,7 +407,7 @@ body{
         .imagem{
             margin-left: 6%;
             margin-top: 5%;
-            width: 290px;
+            width: 250px;
             height: 220px;
             
         }
