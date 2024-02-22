@@ -58,13 +58,15 @@ const textareaElement = document.querySelector(".conteiner__input");
 
 function substituirCaracteresInvalidos(texto) {
   
-  const textoModificado = texto
-      .replaceAll(/[áàãâä]/g, 'a')
-      .replaceAll(/[éèêë]/g, 'e')
-      .replaceAll(/[íìîï]/g, 'i')
-      .replaceAll(/[óòõôö]/g, 'o')
-      .replaceAll(/[úùûü]/g, 'u')
-      .toLowerCase();  
+  const textoSemAcentos = texto
+    .replaceAll(/[áàãâä]/g, 'a')
+    .replaceAll(/[éèêë]/g, 'e')
+    .replaceAll(/[íìîï]/g, 'i')
+    .replaceAll(/[óòõôö]/g, 'o')
+    .replaceAll(/[úùûü]/g, 'u')
+    .toLowerCase();
+
+  const textoModificado = textoSemAcentos.replace(/[^a-z0-9\s]/g, '');
 
   return textoModificado;
 }
