@@ -51,10 +51,10 @@ body{
 
 .imagem{
     position: absolute;
-    margin-left: 3%;
-    margin-top: 3%;
-    width: 500px;
-    height: 390px;
+    margin-left: 4%;
+    margin-top: 4%;
+    width: 540px;
+    height: 370px;
     border-radius: 32px;
     
 }
@@ -65,7 +65,7 @@ body{
     justify-content: center;
     padding: 4%;
     height: 25rem;
-    width: 60rem;
+    width: 80rem;
     margin: 5%;
     border-radius: 5%;
     background-color: white;
@@ -201,7 +201,7 @@ body{
 
     .imagem{
         position: absolute;
-        margin-left: 3%;
+        margin-left: 2.6%;
         margin-top: 3%;
         width: 490px;
         height: 300px;
@@ -237,7 +237,7 @@ body{
     }
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1050px){
     .cabecalho__menu{
         flex-direction: column;
         margin-left: 10rem;
@@ -340,9 +340,9 @@ body{
     .conteiner__texto__resultado{
         padding: 4%;
         height: 15rem;
-        width: 32rem;
+        width: 34rem;
         margin: 5%;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .conteiner__input{
@@ -363,10 +363,10 @@ body{
 
     @media screen and (max-width: 429px){
     .imagem{
-        margin-left: 6%;
-        margin-top: 5%;
-        width: 370px;
-        height: 250px;
+        margin-left: 5%;
+        margin-top: 6%;
+        width: 300px;
+        height: 230px;
         
     }
 
@@ -407,7 +407,7 @@ body{
         .imagem{
             margin-left: 6%;
             margin-top: 5%;
-            width: 360px;
+            width: 290px;
             height: 220px;
             
         }
